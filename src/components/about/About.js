@@ -9,7 +9,7 @@ const About = () => {
         <p>Productivo, detallista y determinado. Con pasión por las soluciones creativas y flexibilidad para adaptarme a distintos escenarios. Dedicado al aprendizaje avanzado del desarrollo web. Apasionado por las nuevas tecnologías. En busca de nuevas experiencias de trabajo en equipo.</p>
       </div>
       <div className="about-img">
-        <img src="https://i.ibb.co/FH0rjxx/Whats-App-Image-2021-04-14-at-13-55-00.jpg" alt="Mi foto"/>
+        <img src="https://i.ibb.co/Sy0cCCP/Whats-App-Image-2021-04-14-at-18-35-05.jpg" alt="Mi foto"/>
       </div>
     </div>
   )

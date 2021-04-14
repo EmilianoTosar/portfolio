@@ -19,21 +19,18 @@
   font-size: 28px;
 }
 
-.about-container > p {
+.about-container p {
   line-height: 1.5;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .about-img {
   width: 45%;
   height: 300px;
   display: flex;
+  justify-content: center;
   align-self: center;
   overflow: hidden;
-}
-
-.about-img > img {
-  align-items: center;
 }
 
 @media only screen and (max-width: 960px) {
@@ -57,9 +54,11 @@
   .about-img {
     width: 100%;
     margin-bottom: 50px;
+    align-content: center;
   }
 
-  .about-img > img {
-    width: 100%;
+  .about-img img {
+    max-width: 100%;
+    height: auto;
   }
 }

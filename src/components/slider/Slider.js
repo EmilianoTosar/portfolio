@@ -29,12 +29,20 @@ const Slider = () => {
           },
         ]}
         offset={30}
-        
         slides={Slides}
         breakpoints={{
           960: {
-            slidesPerPage: 2,
-            itemWidth: 250
+              itemWidth: 250,
+              plugins: [
+                'infinite',
+                'centered',
+                {
+                  resolve: slidesToShowPlugin,
+                  options: {
+                    numberOfSlides: 1
+                  }
+                },
+              ]
           }
         }}
       />

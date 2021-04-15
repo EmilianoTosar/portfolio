@@ -31,14 +31,18 @@ const slidesInfo = [
 const slides = slidesInfo.map(slide => {
   return (
     <div className="slide-container">
+      <a  
+        href={slide.href} 
+        target="_blank" 
+        rel="noreferrer"
+      >
         <img src={slide.src} alt={slide.alt} />
         <div className="slide-desc">
           <span>{slide.desc}</span>
         </div>
+      </a>
     </div>
   )
 })
 
 export default slides
-
-//<a href={slide.href} target="_blank" rel="noreferrer"></a>

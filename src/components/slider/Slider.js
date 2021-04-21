@@ -28,7 +28,7 @@ const Slider = () => {
             },
           },
         ]}
-        offset={30}
+        offset={20}
         slides={Slides}
         breakpoints={{
           960: {
@@ -42,7 +42,7 @@ const Slider = () => {
                     numberOfSlides: 1
                   }
                 },
-              ]
+              ],
           }
         }}
       />

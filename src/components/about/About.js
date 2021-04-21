@@ -6,7 +6,9 @@ const About = () => {
     <div className="about-container">
       <div className="about-desc">
         <h3>Acerca de mi</h3>
-        <p>Productivo, detallista y determinado. Con pasión por las soluciones creativas y flexibilidad para adaptarme a distintos escenarios. Dedicado al aprendizaje avanzado del desarrollo web. Apasionado por las nuevas tecnologías. En busca de nuevas experiencias de trabajo en equipo.</p>
+        <p>
+          Descubrí hace unos años el mundo de la programación y me enamoré. A partir de ese momento, he dedicado practicamente el total de mi tiempo libre a aprender de manera autodidacta los fundamentos del desarrollo web. Si bien no poseo experiencia como programador, tengo vasta experiencia en trabajo en equipo, me manejo con comodidad bajo presión y estoy acostumbrado a la toma de decisiones en diversos contextos laborales. He trabajado durante muchos años en gastronomía, pero estoy deseoso de dar un cambio radical en mi vida para dedicarme profesionalmente a esta nueva pasión. Ojalá puedan darme la oportunidad de demostrar lo que puedo brindarle a cualquier equipo de trabajo!
+        </p>
       </div>
       <div className="about-img">
         <img src="https://i.ibb.co/Sy0cCCP/Whats-App-Image-2021-04-14-at-18-35-05.jpg" alt="Mi foto"/>

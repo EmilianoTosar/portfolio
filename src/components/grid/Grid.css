@@ -1,0 +1,31 @@
+.grid-container {
+  background-color: #101010;
+  padding: 0 6em 6em;
+}
+
+.grid-title {
+  color: #ffffff;
+  text-align: center;
+  padding: 6em 0;
+}
+
+.grid-title h2 {
+  font-size: 3em;
+}
+
+.grid-title p {
+  font-size: 1.2em;
+}
+
+.grid-body {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-gap: 3em;
+  position: relative;
+}
+
+@media only screen and (max-width: 960px) {
+  .grid-title {
+    font-size: 1.2em;
+  }
+}

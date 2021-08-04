@@ -28,7 +28,7 @@
   font-size: 32px;
 }
 
-.cover-container p {
+.cover-container pre {
   margin-top: 12px;
   color: white;
   font-size: 18px;
@@ -46,7 +46,7 @@
     width: 85%;
   }
 
-  .cover-container p {
+  .cover-container pre {
     text-align: center;
     margin: 2px;
   }

@@ -25,7 +25,15 @@
 }
 
 @media only screen and (max-width: 960px) {
-  .grid-title {
-    font-size: 1.2em;
+  .grid-container {
+    padding: 0 0 4em;
+  }
+
+  .grid-title h2 {
+    font-size: 1.8em;
+  }
+
+  .grid-title p {
+    font-size: 0.9em;
   }
 }

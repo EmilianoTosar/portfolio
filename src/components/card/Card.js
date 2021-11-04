@@ -3,9 +3,8 @@ import './Card.css'
 
 const Card = ({src, alt, title, description, repo, href}) => {
   return (
-    <div className="card-container">
-      <img src={src} alt={alt} />
-      <div className='card-info'>
+    <div className="card" style={{backgroundImage:`url(${src})`}} alt={alt}>
+      <div className="card-content">
         <h1>{title}</h1>
         <p>{description}</p>
         <div className='card-btns'>

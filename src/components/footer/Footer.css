@@ -26,6 +26,12 @@
   padding: 100px 0 30px 50px;
   width: 70%;
   margin: 0 auto;
+  
+}
+
+.footer-contact p {
+  float: right;
+  margin-right: 5rem;
 }
 
 .footer-sns {
@@ -74,9 +80,14 @@
 
   .footer-contact {
     font-size: 16px;
-    padding: 0 0 1.5em;
+    padding: 0;
     text-align: center;
     margin-top: 1em;
+  }
+
+  .footer-contact p {
+    float: none;
+    margin: 3rem 0;
   }
 
   .footer-sns {
